@@ -25,6 +25,10 @@ export const metadata: Metadata = {
     "terapia online",
     "psicóloga online",
     "Andréa Leão psicóloga",
+    "psicóloga para brasileiros no exterior",
+    "terapia para expatriados",
+    "psicóloga brasileira online exterior",
+    "terapia online brasileiros fora do Brasil",
   ],
   openGraph: {
     title: siteConfig.title,

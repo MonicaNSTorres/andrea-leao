@@ -19,6 +19,14 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 110px;
+}
+
 body {
   font-family: var(--font-nunito), sans-serif;
   background: #f2f1ec;
@@ -26,4 +34,30 @@ body {
 
 .font-title {
   font-family: var(--font-montserrat), sans-serif;
+}
+
+.bg-andrea-soft {
+  background:
+    radial-gradient(circle at top left, rgba(159, 232, 215, 0.45), transparent 32%),
+    radial-gradient(circle at bottom right, rgba(74, 125, 143, 0.22), transparent 30%),
+    #f2f1ec;
+}
+
+.bg-andrea-aqua {
+  background:
+    radial-gradient(circle at top right, rgba(210, 245, 239, 0.9), transparent 35%),
+    linear-gradient(135deg, #d2f5ef 0%, #f2f1ec 55%, #9fe8d7 100%);
+}
+
+.bg-andrea-dark {
+  background:
+    radial-gradient(circle at top left, rgba(105, 200, 194, 0.35), transparent 35%),
+    linear-gradient(135deg, #4a7d8f 0%, #23414a 100%);
+}
+
+.card-glass {
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  background: rgba(255, 255, 255, 0.58);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 24px 70px rgba(74, 125, 143, 0.12);
 }

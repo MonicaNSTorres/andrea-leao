@@ -9,6 +9,9 @@ import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 import { SEOJsonLd } from "@/components/SEOJsonLd";
 import { LocationSection } from "@/components/LocationSection"; 
 import { BenefitsSection } from "@/components/BenefitsSection";
+import { ExpatSection } from "@/components/ExpatSection";
+import { TrajectorySection } from "@/components/TrajectorySection";
+import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -21,9 +24,13 @@ export default function Home() {
 
       <BenefitsSection />
 
+      <ExpatSection />
+
       <HelpSection />
 
       <AboutSection />
+
+      <TrajectorySection />
 
       <TherapySection />
 
@@ -32,6 +39,8 @@ export default function Home() {
       <LocationSection />
 
       <FinalCTA />
+
+      <Footer />
 
       <WhatsAppFloat />
     </main>
