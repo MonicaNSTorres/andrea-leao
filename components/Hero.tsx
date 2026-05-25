@@ -40,11 +40,11 @@ export function Hero() {
             e online para brasileiros em diferentes regiões do mundo.
           </p>
 
-          <p className="mx-auto mt-5 max-w-xl text-base leading-8 text-[#4f656b] sm:text-lg md:mx-0">
+          {/*<p className="mx-auto mt-5 max-w-xl text-base leading-8 text-[#4f656b] sm:text-lg md:mx-0">
             Psicoterapia presencial no Jardim Aquarius e online para brasileiros
             em qualquer lugar do mundo, com escuta ética, acolhedora e
             respeitosa.
-          </p>
+          </p>*/}
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center md:justify-start">
             <a

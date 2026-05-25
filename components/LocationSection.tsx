@@ -16,10 +16,8 @@ export function LocationSection() {
             </p>
 
             <h2 className="font-title text-3xl font-semibold leading-tight text-[#23414a] md:text-5xl">
-              Atendimento presencial em São José dos Campos e online para
-              brasileiros em qualquer lugar do mundo
+              Atendimento presencial e online com escuta qualificada e cuidado emocional
             </h2>
-
             <p className="mt-6 text-lg leading-8 text-[#5a7076]">
               Um espaço acolhedor pensado para oferecer conforto, escuta e
               cuidado emocional durante o processo terapêutico.
