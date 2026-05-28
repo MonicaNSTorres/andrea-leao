@@ -65,7 +65,7 @@ export function ExpatSection() {
 
             <div className="relative overflow-hidden rounded-[3rem] border border-white/60 bg-white/60 p-3 shadow-2xl backdrop-blur-xl">
               <Image
-                src="/images/andrea/andrea-expat.jpeg"
+                src="/images/andrea/andrea-expat-teste.jpeg"
                 alt="Psicóloga Andréa Leão"
                 width={900}
                 height={1200}
